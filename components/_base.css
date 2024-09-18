@@ -1,0 +1,115 @@
+:root {
+  /*** Base ***/
+
+  /* Typography */
+  --font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+
+  --font-size-1: 1rem; /* 16px */
+  --font-size-2: 1.125rem; /* 18px */
+  --font-size-3: 1.25rem; /* 20px */
+  --font-size-4: 1.5rem; /* 24px */
+  --font-size-5: 1.75rem; /* 28px */
+  --font-size-6: 2rem; /* 32px */
+  --font-size-7: 2.5rem; /* 40px */
+  --font-size-8: 3.5rem; /* 56px */
+
+  --font-weight-1: 400;
+  --font-weight-2: 500;
+  --font-weight-3: 600;
+  --font-weight-4: 700;
+  --font-weight-5: 800;
+
+  --line-height-1: 100%;
+  --line-height-2: 120%;
+  --line-height-3: 150%;
+
+  --letter-spacing-0: 0px;
+
+  /* Colors */
+  --blue-600: hsl(234deg, 25%, 52%);
+  --blue-900: hsl(233deg, 54%, 16%);
+
+  --pink-300: hsl(341deg, 100%, 83%);
+  --pink-600: hsl(341deg, 92%, 62%);
+
+  --grey: hsl(232deg, 10%, 56%);
+
+  --white: hsl(0deg, 0%, 100%);
+
+  /* Gradients */
+  /* --gradient-pink: hsl() */
+
+  /* Spacing */
+  --space-100: 8px;
+  --space-150: 12px;
+  --space-200: 16px;
+  --space-250: 20px;
+  --space-300: 24px;
+  --space-400: 32px;
+  --space-500: 40px;
+  --space-550: 44px;
+  --space-600: 48px;
+  --space-700: 56px;
+  --space-800: 64px;
+  --space-1000: 80px;
+  --space-1600: 128px;
+  --space-1800: 144px;
+
+  /* Screen Size Breakpoints */
+  /* desktop: 90rem/1440px */
+  /* tablet: 68rem/1088px */
+  /* mobile: 34rem/544px */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  color: var(--stone-600);
+  background-color: var(--stone-100);
+}
+
+body {
+  height: 100%;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
